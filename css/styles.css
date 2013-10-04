@@ -5,3 +5,55 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
+body {
+    background-image: url(../img/texture-light.png);
+    background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.push-left {
+	float: left;
+}
+
+.company_name {
+	font: 36px Boogaloo;
+	color: #116189;
+}
+
+.motto {
+	font-size: 120%;
+	font-style: italic;
+}
+
+nav ul {
+	background-color: #D74710;
+	width: 80%;
+	border-radius: 5px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px;	
+	color: #FFF;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #FF9D45;
+	border-radius: 5px;
+}
+
+
+      
