@@ -13,24 +13,47 @@ body {
     padding: 10px;
 }
 
+p {
+	padding: 10px;
+}
+
+.content-box {
+	width: 80%;
+	background-color: #FFF;
+	margin: 0 auto;
+	box-shadow: 3px 3px 6px #C0C0C0;
+	padding-top: 18px;
+}
+
+.header img {
+	padding: 10px;
+}
+
 .push-left {
 	float: left;
+}
+
+.push-right {
+	float: right;
 }
 
 .company_name {
 	font: 36px Boogaloo;
 	color: #116189;
+	padding: 9px;
 }
 
 .motto {
 	font-size: 120%;
 	font-style: italic;
+	font-weight: bold;
 }
 
 nav ul {
 	background-color: #D74710;
-	width: 80%;
 	border-radius: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 nav li {
@@ -39,7 +62,7 @@ nav li {
 
 nav a {
 	display: inline-block;
-	padding: 10px;	
+	padding: 10px;
 	color: #FFF;
 	font-weight: bold;
 	font-size: 110%;
@@ -56,4 +79,24 @@ nav a:hover {
 }
 
 
-      
+.footer {
+	border-top: 1px solid #E0E0E0;
+	font-size: 80%;
+	font-style: italic;
+	clear:both;
+	margin-top: 30px;
+}
+
+.our {
+	font-size: 28px;
+	font-weight: bold;
+	color: #116189;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom:;
+}
+
+.person_name {
+	font-weight: bold;
+	color: #116189;
+}
